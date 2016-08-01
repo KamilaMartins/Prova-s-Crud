@@ -1,0 +1,129 @@
+2016-07-27 21:07:09 Error: Fatal Error (1): Class 'Procedimento' not found in [/var/www/html/ProvaWeb/app/Model/Exame.php, line 44]
+2016-07-27 21:07:09 Error: [FatalErrorException] Class 'Procedimento' not found
+Request URL: /html/ProvaWeb/exames/total_exames
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Procedim...', '/var/www/html/P...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Procedim...', '/var/www/html/P...', 44, Array)
+#2 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Procedim...', '/var/www/html/P...', 44, Array)
+#3 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 21:16:01 Error: [MissingActionException] Action PacientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PacientesController',
+  'action' => 'index',
+)
+Request URL: /html/ProvaWeb/pacientes
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 21:27:16 Error: [MissingActionException] Action ProcedimentosController::list_exames() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProcedimentosController',
+  'action' => 'list_exames',
+)
+Request URL: /html/ProvaWeb/procedimentos/list_exames
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProcedimentosController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 21:47:35 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/ProvaWeb/app/View/Exames/add.ctp, line 39]
+2016-07-27 21:47:35 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /html/ProvaWeb/exames/add/5
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/P...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/P...', 39, Array)
+#2 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/P...', 39, Array)
+#3 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 21:48:06 Error: [MissingActionException] Action ExamesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamesController',
+  'action' => 'display',
+)
+Request URL: /html/ProvaWeb/exames/display
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExamesController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 21:50:08 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/var/www/html/ProvaWeb/app/View/Exames/add.ctp, line 36]
+2016-07-27 21:50:08 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /html/ProvaWeb/exames/add/5
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/P...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/P...', 36, Array)
+#2 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/P...', 36, Array)
+#3 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 21:55:57 Error: [MissingActionException] Action PacientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PacientesController',
+  'action' => 'index',
+)
+Request URL: /html/ProvaWeb/pacientes
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 21:59:30 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/html/ProvaWeb/app/View/Exames/add_admin.ctp, line 23]
+2016-07-27 21:59:30 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /html/ProvaWeb/exames/add_admin
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/P...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/P...', 23, Array)
+#2 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/P...', 23, Array)
+#3 /var/www/html/ProvaWeb/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-07-27 22:00:58 Error: [MissingActionException] Action ExamesController::listar() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamesController',
+  'action' => 'listar',
+)
+Request URL: /html/ProvaWeb/exames/listar
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExamesController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 22:07:25 Error: [MissingActionException] Action AdminsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'index',
+)
+Request URL: /html/ProvaWeb/admins
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 22:09:43 Error: [MissingActionException] Action ExamesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExamesController',
+  'action' => 'index',
+)
+Request URL: /html/ProvaWeb/exames
+Stack Trace:
+#0 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/ProvaWeb/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExamesController), Object(CakeRequest))
+#2 /var/www/html/ProvaWeb/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-07-27 22:24:21 Error: [MissingViewException] View file "Exames/add_admin.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Exames/add_admin.ctp',
+)
+Request URL: /html/ProvaWeb2/exames/add_admin
+Stack Trace:
+#0 /var/www/html/ProvaWeb2/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/ProvaWeb2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/ProvaWeb2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/ProvaWeb2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExamesController), Object(CakeRequest))
+#4 /var/www/html/ProvaWeb2/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
